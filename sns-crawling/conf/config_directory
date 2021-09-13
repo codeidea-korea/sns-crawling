@@ -1,0 +1,48 @@
+driver_path = "."
+down_by_advertiser = True
+
+image_domain = "https://img.trustkorea.kr/"
+
+facebook_dom = {
+    "layout": "#pagelet_timeline_main_column",
+    "post": ".userContentWrapper",
+    "see_more": ".see_more_link",
+    "time": ".timestampContent:first",
+    "text": ".userContent",
+    "image": ".mtm",
+    "video": ".mtm ._3chq",
+    "not_now": "#expanding_cta_close_button",
+}
+
+s3 = {
+    "bucket": "pidaworks-sns",
+    "url": "https://pidaworks-sns.s3.ap-northeast-2.amazonaws.com",
+    "aws_access_key_id": "AKIAWTMSN5M5BN4CEO5F",
+    "aws_secret_access_key": "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",
+}
+
+db = {
+    "host": "115.68.13.248",
+    "db": "sns_manager",
+    "user": "sns_manager",
+    "password": "snssns0408!",
+    "charset": "utf8mb4"
+}
+
+db_transfer_bufsipsi = {
+    "host": "115.68.13.248",
+    "db": "dev_bufs_ipsi_test",
+    "user": "root",
+    "password": "kij@pidaworks",
+    "charset": "utf8",
+    "table": "g5_write_bufs_square",
+}
+
+db_transfer_bufsipsi2 = {
+    "host": "115.68.13.248",
+    "db": "dev_bufs_ipsi_test",
+    "user": "root",
+    "password": "kij@pidaworks",
+    "charset": "utf8",
+    "table": "g5_write_bufs_test",
+}
